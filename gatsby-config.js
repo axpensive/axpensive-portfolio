@@ -1,6 +1,6 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
@@ -10,11 +10,12 @@ module.exports = {
     siteTitle: `Cara`,
     siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
     siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
+    siteUrl: `https://axpensive.github.io`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@lekoarts_de`,
+    pathPrefix: `/axpensive-portfolio`,
   },
   plugins: [
     {
@@ -58,4 +59,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
