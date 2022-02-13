@@ -14,7 +14,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "push": "gh-pages -d public -b master",
+    "push": "gh-pages -d public -b main",
     "deploy": "yarn build && yarn push"
   },
   "dependencies": {
