@@ -3,6 +3,7 @@ require(`dotenv`).config();
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
+  pathPrefix: `/axpensive-portfolio`,
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
@@ -15,7 +16,6 @@ module.exports = {
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@lekoarts_de`,
-    pathPrefix: `/axpensive-portfolio`,
   },
   plugins: [
     {
